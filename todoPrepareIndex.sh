@@ -1,6 +1,6 @@
 cd ..
 
-if [ ! -e indexed ];
+if [ ! -e indexed ]; then
 	mkdir indexed
 fi 
 
