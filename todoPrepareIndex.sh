@@ -5,5 +5,5 @@ if [ ! -e indexed ]; then
 fi 
 
 for i in *.gff3; do
-bsub index_gff.py $i indexed/
+bsub index_gff.py --index $i ${i/.gff3/}_indexed/
 done
